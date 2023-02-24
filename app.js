@@ -89,6 +89,19 @@
 // document.write(text)
 
 //Question No 13
+//FIFO
+// var device=["keyboard","mouse","monitor","printer"];
+// for (var i=0;i<device.length;i++){
+//     document.write(device[i]+"<br>")
+// }
+
+//Question No 14
+//LIFO
+// var arr7 = ["keyboard","mouse","monitor"];
+// for (var i=arr7.length-1;i>=0;i--){
+//     document.write(device[i]+"<br>")
+// }
+//Question No 15 ********
 
 //Chapter # 17 to 20
 //Question No 1
@@ -141,10 +154,43 @@
 //part e series    *******
 
 //Question No 7
-
-
-//Question No 10
-// for (var i =5;i<=100;i*5){
-//     document.write(i)
+// var isMatch = false;
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var ask = prompt("Welcome to abc bakery ,What do you want to order?");
+// for(var i = 0;i<items.length;i++){
+//     if (ask==items[i]){
+//         document.write(ask + " is available at index " + i + " in our bakery");
+//         isMatch = true;
+//     }
+//     break
+// }
+// if(isMatch==false){
+//     document.write("sorry item is not available" );
 // }
 
+
+//Question No 8
+// var arr8 = [24, 53, 78, 91, 12];
+// var temp = 0
+// for (var i =0;i<arr8.length;i++){
+//     if(temp<arr8[i]){
+//         temp = arr8[i];
+//     }
+// }
+// document.write(" The Largest number is "+ temp);
+
+//Question No 9
+// var arr9 = [24, 53, 78, 91, 12];
+// var temp =arr9[0];
+// for (var i =0;i<arr9.length;i++){
+//     if (temp>arr9[i]){
+//         temp = arr9[i];
+//     }
+// } 
+// document.write("The smallest number is " + temp);
+
+//Question No 10
+// for (var i = 1;i<=20;i++){
+//     var j = i * 5;
+//     document.write(j + ",");
+// }
